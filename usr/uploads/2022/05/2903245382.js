@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e=$(".post-link").attr("href"),t=$(".entry-content"),n=/\{hide\}(.*?)\{\/hide\}/gs,a=t.html().replace(n,"<a href="+e+">点击查看隐藏内容</a>");t.html(a)});
